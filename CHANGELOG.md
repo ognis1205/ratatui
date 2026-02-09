@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 <!-- markdownlint-disable line-length no-bare-urls ul-style emphasis-style -->
 
 
+## [0.7.1+ratatui-macros](https://github.com/ognis1205/ratatui/compare/ratatui-macros-v0.7.0...ratatui-macros-v0.7.1) - 2026-02-09
+
+**Full Changelog**: https://github.com/ognis1205/ratatui/compare/ratatui-macros-v0.7.0...ratatui-macros-v0.7.1
+
+
+
 ## [v0.30.0](https://github.com/ratatui/ratatui/releases/tag/v0.30.0) - 2025-12-26
 
 > _"Rats don't just survive; they discover; they create. ... I mean, just look at what they do with
