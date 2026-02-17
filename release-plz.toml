@@ -3,7 +3,7 @@ changelog_path = "./CHANGELOG.md"
 changelog_config = "cliff.toml"
 release_always = false
 semver_check = false
-version_prefix_pattern = '\b(?:ratatui(?:-(?:core|crossterm|widgets|termwiz|termion|macros))?)\s*-\s*(?:v|Version |Release )?'
+version_prefix_pattern = '^ratatui(?:-(core|crossterm|widgets|termwiz|termion|macros))?\s*-\s*'
 
 git_release_body = """
 {{ changelog | replace(from=" by @", to=" by ") }}
