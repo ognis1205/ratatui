@@ -8,3 +8,31 @@ version_prefix_pattern = '(?:ratatui(?:-(core|crossterm|widgets|termwiz|termion|
 git_release_body = """
 {{ changelog | replace(from=" by @", to=" by ") }}
 """
+
+[[package]]
+name = "ratatui"
+version_prefix_pattern = '(?:ratatui\s*-\s*)?'
+
+[[package]]
+name = "ratatui-core"
+version_prefix_pattern = '(?:ratatui-core\s*-\s*)?'
+
+[[package]]
+name = "ratatui-crossterm"
+version_prefix_pattern = '(?:ratatui-crossterm\s*-\s*)?'
+
+[[package]]
+name = "ratatui-widgets"
+version_prefix_pattern = '(?:ratatui-widgets\s*-\s*)?'
+
+[[package]]
+name = "ratatui-termwiz"
+version_prefix_pattern = '(?:ratatui-termwiz\s*-\s*)?'
+
+[[package]]
+name = "ratatui-termion"
+version_prefix_pattern = '(?:ratatui-termion\s*-\s*)?'
+
+[[package]]
+name = "ratatui-macros"
+version_prefix_pattern = '(?:ratatui-macros\s*-\s*)?'
